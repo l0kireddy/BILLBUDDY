@@ -1,0 +1,169 @@
+.welcome-container {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #ffffff;
+  color: #000000;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.welcome-header {
+  width: 100%;
+  padding: 20px 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+.welcome-header-left {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.welcome-logo {
+  width: 60px;
+  height: 60px;
+  object-fit: contain;
+  border-radius: 50%;
+}
+
+.welcome-title-group {
+  text-align: left;
+}
+
+.welcome-title {
+  font-size: 24px;
+  font-weight: bold;
+  margin: 0;
+}
+
+.welcome-subtitle {
+  font-size: 14px;
+  margin: 0;
+  color: #555;
+}
+
+.nav-links {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #000;
+  font-weight: 500;
+  font-size: 15px;
+}
+
+.join-button {
+  padding: 10px 20px;
+  background-color: #000;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.join-button:hover {
+  background-color: #0056b3;
+}
+
+.welcome-content {
+  text-align: center;
+  margin-top: 60px;
+}
+
+.welcome-content h3 {
+  font-size: 22px;
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+
+.welcome-content p {
+  font-size: 16px;
+  color: #333;
+  margin-bottom: 40px;
+}
+
+.features-section {
+  width: 100%;
+  max-width: 900px;
+  text-align: center;
+  margin-top: 20px;
+  padding: 0 20px;
+}
+
+.features-section h4 {
+  font-size: 22px;
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+
+.features {
+  display: flex;
+  justify-content: space-around;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+.feature {
+  max-width: 220px;
+  text-align: center;
+}
+
+.feature span {
+  font-size: 40px;
+  margin-bottom: 12px;
+  display: inline-block;
+}
+
+.feature h5 {
+  font-size: 17px;
+  font-weight: 600;
+  margin: 10px 0 5px;
+}
+
+.feature p {
+  font-size: 14px;
+  color: #777;
+  margin: 0;
+}
+
+.footer {
+  margin-top: 60px;
+  padding: 20px 0;
+  font-size: 14px;
+  color: #666;
+  width: 100%;
+  border-top: 1px solid #eee;
+  text-align: center;
+}
+
+.footer-links {
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+}
+
+.login-button {
+  padding: 10px 20px;
+  background-color: #060607;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+  font-size: 14px;
+  margin-left: 1opx; /* Add some space between the buttons */
+}
+
+.login-button:hover {
+  background-color: #0056b3;
+}

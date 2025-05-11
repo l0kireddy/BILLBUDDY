@@ -1,0 +1,95 @@
+/* Poll Page Styles */
+
+/* Container for the Poll Management Section */
+.poll-page-container {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  background-color: #f8f9fa;
+  border-radius: 8px;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+h2 {
+  font-size: 28px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+h5 {
+  font-size: 20px;
+  color: #333;
+  margin-top: 20px;
+}
+
+.poll-form {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+input {
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+button {
+  padding: 10px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+/* Poll List Section */
+.poll-list ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.poll-list li {
+  background-color: #fff;
+  margin-bottom: 20px;
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.poll-list h4 {
+  margin: 0 0 10px;
+  font-size: 18px;
+}
+
+.poll-list ul li {
+  background-color: #f9f9f9;
+  margin-bottom: 10px;
+  padding: 8px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Button for deleting options and polls */
+.delete-option-btn, .delete-poll-btn {
+  background-color: #e74c3c;
+  padding: 5px 10px;
+  border: none;
+  color: white;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.delete-option-btn:hover, .delete-poll-btn:hover {
+  background-color: #c0392b;
+}

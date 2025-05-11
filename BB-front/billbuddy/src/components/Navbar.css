@@ -1,0 +1,30 @@
+/* client/src/components/Navbar.css */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #8dbceb8f;
+  padding: 15px 20px;
+  color: rgb(49, 45, 45);
+  font-size: 24px;
+}
+
+.logout-btn {
+  padding: 10px 20px;
+  background-color: #e74c3c;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.logout-btn:hover {
+  background-color: #c0392b; /* Darker red when hovered */
+  transform: scale(1.05);
+}
+
+.logout-btn:focus {
+  outline: none;
+}
